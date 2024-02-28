@@ -67,11 +67,14 @@ button {
 	color: white;
 	background-color: grey;
 	display: flex;
-
 	align-items: center;
 	justify-content: center;
 	max-width: 400px;
 	flex: 1
+}
+
+.content img {
+	border-style: none;
 }
 
 .container {
@@ -106,7 +109,7 @@ h2 {
 
 }
 
-.info img {
+img {
 	width: 150px;
 	height: 150px;
 	border-radius: 10px;
