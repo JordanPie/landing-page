@@ -1,4 +1,4 @@
-.header {
+.header,.footer {
 	font-size: 24px;
 	color: #F9FAF8;
 	display: flex;
@@ -60,6 +60,7 @@ button {
 	display: flex;
 	max-width: 100px;
 	justify-content: center;
+	border-radius: 5px;
 }
 
 .content {
@@ -89,18 +90,12 @@ h2 {
 
 }
 
-.info {
-
-	border-style: solid;
-	border-width: 3px;
-	border-color:#3882f6;
-
-}
 
 .cats {
 	display: flex;
 	justify-content: center;
 	gap: 50px;
+	border-radius: 10px;
 }
 
 .title {
@@ -111,9 +106,12 @@ h2 {
 
 }
 
-img {
+.info img {
 	width: 150px;
 	height: 150px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #3882f6;
 }
 
 .text p {
@@ -155,10 +153,12 @@ img {
 	background-color: #3882f6;
 	width: 650px;
 	height: 80px;
+	padding-left: 20px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-self: center;
+	border-radius: 10px;
 }
 
 .modal-container {
@@ -167,7 +167,7 @@ img {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	display: flex;
-flex-direction: column;
+	flex-direction: column;
 }
 
 .modal p {
@@ -179,9 +179,14 @@ flex-direction: column;
 .modal button {
 	align-self: flex-end;
 	margin-right: 20px;
+	border-radius: 5px;
 }
 
 h4 {
 	color: white;
 	margin: 0;
+}
+
+.footer {
+	font-size: 12px;
 }
